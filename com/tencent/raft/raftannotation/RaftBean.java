@@ -1,0 +1,14 @@
+package com.tencent.raft.raftannotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target({ElementType.METHOD})
+@Retention(RetentionPolicy.CLASS)
+public @interface RaftBean {
+    Class<?>[] bounds() default {};
+
+    String name() default "";
+}

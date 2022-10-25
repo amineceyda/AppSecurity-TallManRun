@@ -1,0 +1,18 @@
+package g.c.a.n.a;
+
+public enum j {
+    UNKNOWN,
+    WAITING_FOR_DOWNLOAD,
+    WAITING_FOR_UPDATE,
+    REQUEST_UPDATE,
+    WAITING_FOR_INSTALL,
+    INSTALLED,
+    f2102h,
+    PAUSED,
+    NEED_BUY,
+    INSTALLING,
+    PRE_REGISTER,
+    HAVE_NO_VERSION,
+    SHOW_GP_ICON,
+    DOWNLOADED_FAILED
+}
